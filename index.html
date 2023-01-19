@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/4102326_cloud_sun_sunny_weather_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="input-area">
+            <input type="text" id="search"  placeholder="enter cityname" />
+            <button id="search-button">search</button>
+            
+        </div>
+        <div class="display-area">
+            <img src="./images/4102326_cloud_sun_sunny_weather_icon.png" alt="">
+            <h2 id="temp"></h2>
+            <div class="status">
+                <span id="status-img"></span>
+                <h3 id="status"></h3>
+            </div>
+            <h2 id="error"></h2>
+            <div id="city-info">
+                <p id="city-name"></p>
+                <p id="country"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
